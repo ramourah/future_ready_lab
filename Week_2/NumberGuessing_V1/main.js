@@ -17,10 +17,11 @@ while(currentGuess != target){
         
         totalGuesses++
     }else if(currentGuess > target){
-        currentGuess = parseint(prompt("Enter a lower number."));
+        currentGuess = parseInt(prompt("Enter a lower number."));
         
         totalGuesses++
     }
     }
+    //notify user when they have guessed correctly. Show how many tries it took.
     alert("It took " + totalGuesses + " tries to guess the correct number.");
 }
