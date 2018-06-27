@@ -10,7 +10,7 @@ var from = parseInt(prompt("Enter the lower bound."));
     while(from < 0){
         from = parseInt(prompt('The lower bound cannot be less than 0.'))
     }
-//Make sure only number is input.
+//Make sure lower bound is number.
     while(isNaN(from)){
         from = parseInt(prompt("Please input numbers only."))
     }
